@@ -192,7 +192,7 @@ footer {
   width: 100%;
   text-align: center;
   writing-mode: vertical-rl;
-  margin: 0 auto
+  margin: 0 auto;
   transform: rotate(180deg);
   font-weight: bold;
   color: #fff;
@@ -200,7 +200,7 @@ footer {
   text-decoration: none;
   padding: 16px 0;
   display: block;
-  transition: background 0.2s, opacity 0.2s;
+  transition: 0.2s, opacity 0.2s;
   border-radius: 8px;
 }
 
