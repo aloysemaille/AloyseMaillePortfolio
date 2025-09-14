@@ -10,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* padding-top: 40px; */ /* REMOVE THIS */
   z-index: 1000;
 }
 
@@ -44,10 +45,4 @@
   background: #fff;
   color: #241c29;
   opacity: 1;
-}
-
-/* Shift main content to the right of sidebar */
-main.container {
-  margin-left: 90px;
-  padding: 2rem;
 }
