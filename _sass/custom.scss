@@ -161,11 +161,10 @@ footer {
 
 /* Use a wrapper div for vertical centering */
 .sidebar-content {
-  margin: auto 0;
+  margin: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  left: 100px;
 }
 
 .sidebar ul {
