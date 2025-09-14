@@ -155,7 +155,8 @@ footer {
   background: #6983f7;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
+  justify-content: center;
   z-index: 1000;
 }
 
@@ -174,17 +175,24 @@ footer {
   padding: 0;
   margin: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      // center links horizontally
+  justify-content: center;
 }
 
 .sidebar ul li {
   width: 100%;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .sidebar ul li a {
+  width: 100%;
+  text-align: center;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  text-align: center;
   font-weight: bold;
   color: #fff;
   opacity: 0.6;
