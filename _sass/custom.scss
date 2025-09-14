@@ -156,7 +156,8 @@ footer {
   background: #6983f7 !important;; /* You can change this to $primary-color if desired */
   display: flex;
   flex-direction: column;
-  align-items: right;
+  align-items: center;
+  justify-content: center;
   padding-top: 40px;
   z-index: 1000;
 }
