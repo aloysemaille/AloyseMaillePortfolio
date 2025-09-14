@@ -150,7 +150,7 @@ footer {
   position: fixed;
   left: 0;
   top: 0;
-  width: 40px;
+  width: 90px;
   height: 100vh;
   background: #6983f7;
   display: flex;
@@ -190,6 +190,7 @@ footer {
 .sidebar ul li a {
   width: 100%;
   text-align: center;
+  padding: 16px 6px;
   writing-mode: vertical-rl;
   margin: 0 auto;
   transform: rotate(180deg);
@@ -197,7 +198,6 @@ footer {
   color: #fff;
   opacity: 0.6;
   text-decoration: none;
-  padding: 16px 0;
   display: block;
   transition: 0.2s, opacity 0.2s;
   border-radius: 8px;
