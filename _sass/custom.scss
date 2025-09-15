@@ -116,7 +116,7 @@ main.container {
   
 .about-text {
   flex: 1;
-  margin-top: 300px; // Adjust this value as needed
+  margin-top: 250px; // Adjust this value as needed
 }
 
 .profile-image {
@@ -270,7 +270,7 @@ main.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 1.2rem;
   color: #241c29;
   opacity: 0.7;
@@ -278,7 +278,6 @@ main.container {
 
 .down-arrow {
   font-size: 2.5rem;
-  margin-top: 0.2rem;
   animation: bounce 1.2s infinite;
   margin-bottom: 350px;
 }
