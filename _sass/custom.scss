@@ -148,7 +148,7 @@ footer {
 /* --- Sidebar styles for vertical navigation --- */
 .sidebar {
   position: fixed;
-  left: 100px;
+  left: 0;
   top: 0;
   width: 90px;
   height: 100vh;
@@ -171,7 +171,7 @@ footer {
 
 .sidebar ul {
   list-style: none;
-  padding: 0;
+  padding: 50px;
   margin: 0;
   width: 100%;
   display: flex;
