@@ -116,8 +116,7 @@ main.container {
   
 .about-text {
   flex: 1;
-  margin-top: 300px; // Adjust this value as needed
-  margin-left: -10rem;
+  margin-top: 250px; // Adjust this value as needed
 }
 
 .profile-image {
@@ -130,6 +129,9 @@ main.container {
   margin-left: 0;
 }
 
+.about-text {
+  flex: 1;
+}
 
 .project-image {
   float: left;
