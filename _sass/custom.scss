@@ -15,7 +15,7 @@ $text-color: #333;
   $text-color: #ffffff;
 } @else if $color_scheme == 'desert' {
   $primary-color: #6983f7;
-  $background-color: #d6d6d6;
+  $background-color: #dae1ff;
   $text-color: #241c29;
 }
 
@@ -88,7 +88,21 @@ footer {
   margin-left: -2.5rem;  
   }
   
-  main.container {
+  .hero-title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.hero-title h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #241c29; // or your preferred color
+  font-family: 'Montserrat', sans-serif;
+}
+
+main.container {
   margin-left: 90px;           // keep this for sidebar space
   padding: 0 2rem 2rem 0;      // remove top and left padding
   }

@@ -1,5 +1,10 @@
+
+
 <div class="about-section">
   <img class="profile-image" src="{{ site.baseurl }}/assets/images/PP.JPG" alt="Profile Picture" />
+  <div class="hero-title">
+    <h1>Hello, I am Aloyse</h1>
+  </div>
   <div class="about-text">
     <h2>About Me</h2>
     <p>
@@ -10,3 +15,4 @@
     </p>
   </div>
 </div>
+
