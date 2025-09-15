@@ -12,11 +12,11 @@ $text-color: #333;
 } @else if $color_scheme == 'aqua' {
   $primary-color: #598392;
   $background-color: #eff6e0;
-  $text-color: #01161e;
+  $text-color: #ffffff;
 } @else if $color_scheme == 'desert' {
   $primary-color: #6983f7;
-  $background-color: #e0e7ff;
-  $text-color: #1e0101;
+  $background-color: #141415;
+  $text-color: #dae1ff;
 }
 
 body {
