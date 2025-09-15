@@ -91,14 +91,21 @@ footer {
 
 .about-text h1 {
   font-size: 4.5rem;
-  #font-weight: bold;
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  color: #241c29; // or your preferred color
+  margin-bottom: 0;
+  margin-left: 150px;
+  }
+
+.about-text h3 {
+  font-size: 4rem;
   font-family: 'Poppins';
   letter-spacing: 1px;
   color: #241c29; // or your preferred color
   margin-bottom: 350px;
   margin-left: 150px;
-}
-
+  }
 main.container {
   margin-left: 90px;           // keep this for sidebar space
   padding: 0 2rem 2rem 0;      // remove top and left padding
@@ -106,7 +113,7 @@ main.container {
   
 .about-text {
   flex: 1;
-  margin-top: 350px; // Adjust this value as needed
+  margin-top: 300px; // Adjust this value as needed
 }
 
 .profile-image {

@@ -3,7 +3,8 @@
 <div class="about-section">
   <img class="profile-image" src="{{ site.baseurl }}/assets/images/PP.JPG" alt="Profile Picture" />
   <div class="about-text">
-    <h1>Hi, I am Aloyse</h1>
+    <h1>Hi, I am Aloyse Maille</h1>
+    <h3>Junior Undergraduate at Cornell University in Mechanical and Aerospace Engineering</h3>
     <h2>About Me</h2>
     <p>
       My name is {{ site.name }}, and I am a French and Canadian citizen but lived in Paris, where I was born, my entire life before coming to the US to study engineering at Cornell University. I absolutely love to discover new places and meet new people, so I travel a lot. I always do a lot of sport, I am currently part of Cornell's Women Varsity Polo Team and Cornell Taekwondo Club. I also enjoy reading and doing art in my free time. My current career goals are to expand my knowledge of the space and quantum fields and gain experience in both. I am particularly interested in research and development, design and project management.
