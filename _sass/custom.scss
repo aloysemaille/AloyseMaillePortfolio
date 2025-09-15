@@ -29,7 +29,7 @@ body {
 }
 
 header, footer {
-  padding: 10px 5px;
+  padding: 0px 5px;
   background: $primary-color;
   color: $background-color;
 }
@@ -92,6 +92,7 @@ footer {
   object-fit: cover;
   margin: 0;
   display: block;
+  margin-left: 0;
 }
 
 .about-text {
