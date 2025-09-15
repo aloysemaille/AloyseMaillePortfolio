@@ -92,9 +92,11 @@ footer {
 .about-text h1 {
   font-size: 4rem;
   font-weight: bold;
+  font-family: 'Poppins';
   letter-spacing: 2px;
   color: #241c29; // or your preferred color
-  margin-bottom: 500px
+  margin-bottom: 250px;
+  margin-left: 200px;
 }
 
 main.container {
@@ -104,7 +106,7 @@ main.container {
   
 .about-text {
   flex: 1;
-  margin-top: 500px; // Adjust this value as needed
+  margin-top: 250px; // Adjust this value as needed
 }
 
 .profile-image {
