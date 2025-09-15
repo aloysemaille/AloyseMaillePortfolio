@@ -105,7 +105,6 @@ footer {
   font-family: 'Poppins';
   letter-spacing: 1px;
   color: #241c29; // or your preferred color
-  margin-bottom: 350px;
   margin-left: 100px;
   margin-right: 100px;
   justify-content: center;
@@ -279,8 +278,9 @@ main.container {
 
 .down-arrow {
   font-size: 2.5rem;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
   animation: bounce 1.2s infinite;
+  margin-bottom: 350px;
 }
 
 @keyframes bounce {
