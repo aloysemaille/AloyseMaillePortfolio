@@ -86,23 +86,17 @@ footer {
   gap: 40px;
   margin-top: 0;
   margin-left: -2.5rem;  main.container {
-    margin-left: 90px;           // keep this for sidebar space
-    padding: 0 2rem 2rem 0;      // remove top and left padding
+  margin-left: 90px;           // keep this for sidebar space
+  padding: 0 2rem 2rem 0;      // remove top and left padding
   }
   
-  .about-section {
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
-    margin-top: 0;               // remove top margin
-    margin-left: -2rem;          // pull section left to align image with sidebar
-    margin-bottom: 40px;
-  }
-  margin-bottom: 40px;
+.about-text {
+  flex: 1;
+  margin-top: 40px; // Adjust this value as needed
 }
 
 .profile-image {
-  width: 500px;
+  width: 600px;
   object-fit: cover;
   margin: 0;
   display: flex;
