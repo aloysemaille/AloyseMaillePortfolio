@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Aloyse Maille - Portfolio
-permalink: /projects/
+title: Contact
+permalink: /contact/
 ---
 
 <div class="contact-section">
