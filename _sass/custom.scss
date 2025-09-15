@@ -279,10 +279,14 @@ main.container {
 .down-arrow {
   font-size: 2.5rem;
   animation: bounce 1.2s infinite;
-  margin-bottom: 290px;
+  margin-bottom: 300px;
 }
 
 @keyframes bounce {
   0%, 100% { transform: translateY(0);}
   50% { transform: translateY(12px);}
+}
+
+.about-description {
+  margin-left: -1000px;
 }
