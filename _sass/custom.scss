@@ -96,15 +96,19 @@ footer {
   color: #241c29; // or your preferred color
   margin-bottom: 0;
   margin-left: 100px;
+  margin-right: 100px;
+  justify-self: center;
   }
 
 .about-text h3 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-family: 'Poppins';
   letter-spacing: 1px;
   color: #241c29; // or your preferred color
   margin-bottom: 350px;
-  margin-left: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-self: center;
   }
 main.container {
   margin-left: 90px;           // keep this for sidebar space
