@@ -20,9 +20,9 @@ permalink: /athletics/
   </p>
   <h2>Eventing</h2>
   <img src="{{ site.baseurl }}/assets/images/EV1.png" style="width:300px; border-radius:10px;" />
-  <img src="{{ site.baseurl }}/assets/images/EV2.JPG" style="width:300px; border-radius:10px;" />
-  <img src="{{ site.baseurl }}/assets/images/EV3.PNG" style="width:300px; border-radius:10px;" />
-   <img src="{{ site.baseurl }}/assets/images/EV4.PNG" style="width:300px; border-radius:10px;" />
+  <img src="{{ site.baseurl }}/assets/images/EV2.png" style="width:300px; border-radius:10px;" />
+  <img src="{{ site.baseurl }}/assets/images/EV3.png" style="width:300px; border-radius:10px;" />
+   <img src="{{ site.baseurl }}/assets/images/EV4.png" style="width:300px; border-radius:10px;" />
   <p> Back home, I used to compete in eventing. I participated in several French National Championships and received several national (one gold and one bronze title), regionals and departemental titles.
   </p>
 </div>
