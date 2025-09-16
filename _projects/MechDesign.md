@@ -7,7 +7,7 @@ image: /assets/images/ZT_Group.jpg
 ---
 
 <div>
-    I am part of the experimental side of the subgroup working on implementing 2D-materials on quantum devices. As part of the research, I am trained to use:
+    FI am part of the experimental side of the subgroup working on implementing 2D-materials on quantum devices. As part of the research, I am trained to use:
     - wire bonder, 
     - PPMS (Physical properties measurement system),
     - microscope with associated online programs,
