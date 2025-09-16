@@ -11,7 +11,7 @@ image: /assets/images/ZT_Group.jpg
 <img src="{{ site.baseurl }}/assets/images/ZT4.png" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/ZT5.png" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/ZT6.png" style="width:300px; border-radius:10px;" />
-<img src="{{ site.baseurl }}/assets/images/ZT7.png" style="width:300px; border-radius:10px;" />
+<img src="{{ site.baseurl }}/assets/images/ZT10.png" style="width:300px; border-radius:10px;" />
 <img src="{{ site.baseurl }}/assets/images/ZT9.png" style="width:300px; border-radius:10px;" />
 
 <div>   
