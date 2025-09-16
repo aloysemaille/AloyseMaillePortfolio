@@ -18,4 +18,11 @@ permalink: /athletics/
   <img src="{{ site.baseurl }}/assets/images/TKD3.PNG" style="width:300px; border-radius:10px;" />
   <p> During my first semester at Cornell I discovered taekwondo. I went from white belt to currently red belt and won several sparring medals in intercollegiate tournaments. Taekwondo is not my primary sport, however I believe it adds a lot to my athletic training for polo, helping me gain more flexibility, be stronger and have more balance. 
   </p>
+  <h2>Eventing</h2>
+  <img src="{{ site.baseurl }}/assets/images/EV1.png" style="width:300px; border-radius:10px;" />
+  <img src="{{ site.baseurl }}/assets/images/EV2.JPG" style="width:300px; border-radius:10px;" />
+  <img src="{{ site.baseurl }}/assets/images/EV3.PNG" style="width:300px; border-radius:10px;" />
+   <img src="{{ site.baseurl }}/assets/images/EV4.PNG" style="width:300px; border-radius:10px;" />
+  <p> Back home, I used to compete in eventing. I participated in several French National Championships and received several national (one gold and one bronze title), regionals and departemental titles.
+  </p>
 </div>
