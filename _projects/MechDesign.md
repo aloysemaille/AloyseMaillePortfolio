@@ -1,15 +1,17 @@
 ---
 layout: project
-title: ZT Group
-description: Research
-technologies: [Clean Room, Experimental tools]
-image: /assets/images/ZT_Group.jpg
+title: WindStop
+description: Intro to mech design project
+technologies: [sketching, CAD, testing, design process]
+image: /assets/images/IMD1.JPEG
 ---
+<img src="{{ site.baseurl }}/assets/images/IMD2.JPEG" style="width:300px; border-radius:10px;" />
+<img src="{{ site.baseurl }}/assets/images/IMD3.png" style="width:300px; border-radius:10px;" />
 
 <div>
-    FI am part of the experimental side of the subgroup working on implementing 2D-materials on quantum devices. As part of the research, I am trained to use:
-    - wire bonder, 
-    - PPMS (Physical properties measurement system),
-    - microscope with associated online programs,
-    and I am also trained to access the cleanroom - in which our microscope and other devices are currently located. Other processes I am trained on and familiar with are dry transfer, photolithography and reactive ion etching.
+    This project was part of my Intro to Mechanical Design class of Spring 2025. 
+    
+    My team decided to create an easy adaptable device to fix to any window and fix its opening to a set point, even in cases of strong winds. The devices has for main target audience students or people leasing their place of living, who cannot install permanent devices on their window and rely primarly on the use of their windows to regulate the temperature of their households.
+
+    Several prototypes of the design were made using mainly laser cutting and 3D printing, and the industry-ready prototypes were made using CAD renderings. 
 </div>
