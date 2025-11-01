@@ -10,7 +10,7 @@ permalink: /athletics/
   <img src="{{ site.baseurl }}/assets/images/POLO2.JPG" style="width:300px; border-radius:10px;" />
   <img src="{{ site.baseurl }}/assets/images/POLO3.jpg" style="width:300px; border-radius:10px;" />
   <img src="{{ site.baseurl }}/assets/images/POLO4.JPG" style="width:300px; border-radius:10px;" />
-  <p> I am a student-athlete and I am part of the Women's varsity D1 polo team! My background is in evnting (dressage, showjumping and cross-country), and the Cornell Polo Team gave me the opportunity to learn a new sport and compete as a varsity athlete. This past summer, I participater in several official outdoor polo tournaments from the 0-goal level to the 4-goal level. 
+  <p> I am a student-athlete and I am part of the Women's varsity D1 polo team! My background is in eventing (dressage, showjumping and cross-country), and the Cornell Polo Team gave me the opportunity to learn a new sport and compete as a varsity athlete. This past summer, I participater in several official outdoor polo tournaments from the 0-goal level to the 4-goal level. 
   </p>
   <h2>Cornell Taekwondo Club</h2>
   <img src="{{ site.baseurl }}/assets/images/TKD1.png" style="width:300px; border-radius:10px;" />
