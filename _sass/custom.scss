@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 // Default to light theme
 $primary-color: #707da5;
 $background-color: #f9f9f9;
@@ -15,11 +16,12 @@ $text-color: #333;
   $background-color: #eff6e0;
   $text-color: #ffffff;
 } @else if $color_scheme == 'desert' {
-  $primary-color: #6983f7;
-  $background-color: #dae1ff;
+  $primary-color: #0C5485;
+  $background-color: #b3c6d8;
   $text-color: #241c29;
 }
 
+// General styles
 body {
   font-family: 'Montserrat';
   line-height: 1.6;
@@ -42,17 +44,6 @@ header {
 footer {
   text-align: center;
   margin-top: 40px;
-}
-
-.project-item img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.project-item h3 {
-  margin-top: 15px;
-  font-size: 1.25em;
 }
 
 .btn {
@@ -81,126 +72,14 @@ footer {
 .highlight .p { color: #89ddff; }
 .highlight .o { color: #ff5370; }
 
-.about-section {
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  margin-top: 0;
-  margin-left: -2.5rem;  
-  } 
-
-.about-text h1 {
-  font-size: 4.5rem;
-  font-family: 'Poppins';
-  letter-spacing: 1px;
-  color: #241c29; // or your preferred color
-  margin-bottom: 0;
-  margin-left: 100px;
-  margin-right: 100px;
-  justify-content: center;
-  }
-
-.about-text h3 {
-  font-size: 1.5rem;
-  font-family: 'Poppins';
-  letter-spacing: 1px;
-  color: #241c29; // or your preferred color
-  margin-left: 100px;
-  margin-right: 100px;
-  justify-content: center;
-  }
-main.container {
-  margin-left: 90px;           // keep this for sidebar space
-  padding: 0 2rem 2rem 0;      // remove top and left padding
-  }
-  
-.about-text {
-  flex: 1;
-  margin-top: 250px; // Adjust this value as needed
-}
-
-.profile-image {
-  width: 600px;
-  object-fit: cover;
-  margin: 0;
-  display: flex;
-  align-self: left;
-  justify-content: left;
-  margin-left: 0;
-  margin-bottom: 25px; /*trying that*/
-}
-
-.about-text {
-  flex: 1;
-}
-
-.project-image {
-  float: left;
-  margin: 20px 25px 25px 0;
-  max-width: 200px;
-  vertical-align: top;
-}
-
-.gallery-container {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
-
-.project-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 20px;
-  padding: 20px;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-.gallery-item {
-  overflow: hidden;
-  text-align: center;
-  transition: transform 0.3s ease;
-  max-width: 250px; 
-  max-height: 300px; 
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 85%;
-  display: block;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.gallery-item p {
-  margin: 13px 0;
-  font-size: 1rem;
-  color: $text-color;
-}
-
-.gallery-item a {
-  text-decoration: none;
-}
-
-.gallery-item:hover {
-  transform: scale(1.05); 
-}
-
-.project-image {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* --- Sidebar styles for vertical navigation --- */
+// Sidebar styles
 .sidebar {
   position: fixed;
   left: 0;
   top: 0;
   width: 50px;
   height: 100vh;
-  background: #6983f7;
+  background: #0C5485;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,9 +87,8 @@ main.container {
   z-index: 1000;
 }
 
-/* Use a wrapper div for vertical centering */
 .sidebar-content {
-  height : 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,7 +102,7 @@ main.container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;      // center links horizontally
+  align-items: center;
   justify-content: center;
 }
 
@@ -243,7 +121,7 @@ main.container {
   margin: 0 auto;
   transform: rotate(180deg);
   font-weight: bold;
-  color: #fff;
+  color: #b3c6d8;
   opacity: 0.6;
   text-decoration: none;
   display: flex;
@@ -257,14 +135,60 @@ main.container {
 .sidebar ul li a.active,
 .sidebar ul li a:hover {
   background: #fff;
-  color: #241c29;
+  color: #0d0d13;
   opacity: 1;
 }
 
-/* Shift main content to the right of sidebar */
 main.container {
   margin-left: 90px;
   padding: 0 2rem 2rem 0;
+}
+
+// Home page styles (index.md)
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 0;
+  margin-left: -2.5rem;
+}
+
+.about-text {
+  flex: 1;
+  margin-top: 250px;
+}
+
+.about-text h1 {
+  font-size: 4.5rem;
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  color: #0d0d13;
+  margin-bottom: 0;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+}
+
+.about-text h3 {
+  font-size: 1.5rem;
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  color: #0d0d13;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 600px;
+  object-fit: cover;
+  margin: 0;
+  display: flex;
+  align-self: left;
+  justify-content: left;
+  margin-left: 0;
+  margin-bottom: 25px;
 }
 
 .scroll-down {
@@ -273,27 +197,18 @@ main.container {
   align-items: center;
   margin-top: 3rem;
   font-size: 1.2rem;
-  color: #363636;
+  color: #171722;
   opacity: 0.7;
 }
 
 .down-arrow {
   font-size: 2.5rem;
   animation: bounce 1.2s infinite;
-  /*margin-bottom: 300px;*/
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0);}
-  50% { transform: translateY(12px);}
-}
-
-.about-description {
-  font-family: 'Montserrat';
-  font-size: 1rem;
-  margin-left: 0;
-  color: #241c29; // or your preferred color
-  justify-content: center;
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(12px); }
 }
 
 .about-me-section h2 {
@@ -301,18 +216,247 @@ main.container {
   font-weight: bold;
   font-size: 1.5rem;
   margin-left: 0;
-  color: #241c29; // or your preferred color
+  margin-top: 20px;
+  color: #0d0d13;
   justify-content: center;
- }
+  text-align: center;
+}
 
+.about-me-section h2::before {
+  content: "★";
+  margin-right: 10px;
+}
+
+.about-me-section h2::after {
+  content: "★";
+  margin-left: 10px;
+}
+
+.boxes-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.box {
+  flex: 1;
+  padding: 15px;
+  border: 0px solid #0c55858c;
+  border-radius: 8px;
+  background-color: #0c55858c;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.take-look {
+  margin-top: 30px;
+}
+
+// Projects page styles
+.project-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-item h3 {
+  margin-top: 15px;
+  font-size: 1.25em;
+}
+
+.project-image {
+  float: left;
+  margin: 20px 25px 25px 0;
+  max-width: 200px;
+  vertical-align: top;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.gallery-item {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 85%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item p {
+  margin: 13px 0;
+  font-size: 1rem;
+  color: $text-color;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.gallery-item a {
+  text-decoration: none;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+// Project in the page details
+
+  .carousel {
+    position: relative;
+    max-width: 1600px; /* Adjusted for three images */
+    margin: 0; /* Aligned to the left */
+    overflow: hidden;
+  }
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carousel .left img, .carousel .right img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 10px;
+    opacity: 0.4;
+  }
+  .carousel .center img {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 10px;
+    opacity: 1;
+  }
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+  .carousel-btn.prev {
+    left: 10px;
+  }
+  .carousel-btn.next {
+    right: 10px;
+  }
+
+   .technologies {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  .tech-box {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .project-header {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2rem;
+  color: #0d0d13;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+// Athletics page styles
+.sport-section {
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 610px;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.image-grid img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.sport-title {
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.sport-description {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+// Resume page styles
+#english-btn, #french-btn {
+  background-color: #0C5485;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+#english-btn:hover, #french-btn:hover {
+  background-color: #0c476eff;
+}
+
+#english-btn.active, #french-btn.active {
+  background-color: #0C5485;
+}
+
+// Contact page styles
 .contact-section h2 {
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 1.5rem;
   margin-left: 0;
-  color: #241c29; // or your preferred color
+  color: #0d0d13;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 10px;
 }
 
@@ -321,9 +465,24 @@ main.container {
   font-weight: bold;
   font-size: 1.5rem;
   margin-left: 0;
-  color: #241c29; // or your preferred color
+  color: #0d0d13;
   justify-content: center;
   margin-top: 50px;
   margin-bottom: 10px;
 }
-  
+
+.contact-section p {
+  margin-bottom: 10px;
+}
+
+.contact-section p.phone {
+  margin-bottom: 5px;
+}
+
+.contact-section p.note {
+  margin-bottom: 20px;
+}
+
+.contact-section p.email {
+  margin-bottom: 10px;
+}

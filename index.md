@@ -13,12 +13,23 @@
 </div>
 
 <div class="about-me-section">
-  <h2>About Me</h2>
-  <p class="about-description">
-    My name is {{ site.name }}, and I am a French and Canadian citizen but lived in Paris, where I was born, my entire life before coming to the US to study engineering at Cornell University. I absolutely love to discover new places and meet new people, so I travel a lot. I always do a lot of sport, I am currently part of Cornell's Women Varsity Polo Team and Cornell Taekwondo Club. I also enjoy reading and doing art in my free time. My current career goals are to expand my knowledge of the space and quantum fields and gain experience in both. I am particularly interested in research and development, design and project management.
-  </p>
-  <p>
-    Take a look at <a href="{{ site.baseurl }}/projects/">my projects</a> and <a href="{{ site.baseurl }}/AloyseMaille_CV_EN.pdf">resume</a>.
+  <h2>ABOUT ME</h2>
+  <div class="boxes-container">
+    <div class="box">
+      <p> I have the French and Canadian nationalities. I lived in Paris my entire life and studied at a French highschool before coming to the US to study engineering at Cornell University.</p>
+    </div>
+    <div class="box">
+      <p> My current career goals are to expand my knowledge and gain experience in the space and quantum fields. I am particularly interested in R&D, design and project management. </p>
+    </div>
+    <div class="box">
+      <p> I am a student-athlete part of the varsity polo team. I also loves to travel, read, do other sports and make art.</p>
+    </div>
+  </div>
+  <p class="take-look">
+    Take a look at <a href="{{ site.baseurl }}/projects/">my projects</a>, <a href="{{ site.baseurl }}/resume/">my resume</a> and <a href="{{ site.baseurl }}/athletics/">my athletic achievements</a>.
   </p>  
+  <p class="take-look">
+    This portfolio website is not yet adapted for smaller screens such as phones, ipads or split screens. It is a work in progress and is regularly updated.
+  </p>
 </div>
 

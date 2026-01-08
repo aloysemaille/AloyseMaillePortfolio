@@ -2,15 +2,25 @@
 layout: default
 title: Contact
 permalink: /contact/
+published: true
 ---
 
 <div class="contact-section">
   <h2>How to contact me?</h2>
-  <p>
+  <p class="phone">
     US phone number: +1 (607) 797-5994
   </p>
-  <p> 
-    Email: aam299@cornell.edu
+  <p class="phone">
+    FR phone number: +33 7 89 47 77 81
+  </p>
+  <p class="note">
+    (Please understand that only one line is active as I move from one continent to the other.)
+  </p>
+  <p class="email"> 
+    Email pro: aam299@cornell.edu
+  </p>
+  <p class="email"> 
+    Email perso: maille.a@orange.fr
   </p>
   <p>
     LinkedIn: <a href="https://www.linkedin.com/in/aloysemaille" target="_blank">www.linkedin.com/in/aloysemaille</a>
