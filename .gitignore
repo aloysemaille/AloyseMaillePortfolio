@@ -27,8 +27,5 @@ Gemfile.lock
 *.swo
 *~
 
-# GitHub Actions
-.github/workflows/*
-
 # VS Code specific settings
 .vscode/
