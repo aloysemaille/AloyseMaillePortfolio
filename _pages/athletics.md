@@ -32,7 +32,7 @@ published: true
     <div class="image-grid">
       <img src="{{ site.baseurl }}/assets/images/TKD1.png" />
       <img src="{{ site.baseurl }}/assets/images/TKD2.JPG" />
-      <img src="{{ site.baseurl }}/assets/images/TKD3.PNG" />
+      <img src="{{ site.baseurl }}/assets/images/TKD3.JPG" />
       <img src="{{ site.baseurl }}/assets/images/TKD4.JPG" />
     </div>
     <p class="sport-title">Cornell Taekwondo Club</p>
