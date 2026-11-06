@@ -4,7 +4,7 @@
   <img class="profile-image" src="{{ site.baseurl }}/assets/images/PP.JPG" alt="Profile Picture" />
   <div class="about-text">
     <h1>Hi, I am Aloyse Maille</h1>
-    <h3>Junior Undergraduate at Cornell University in Mechanical and Aerospace Engineering</h3>
+    <h3>Senior Undergraduate at Cornell University in Mechanical and Aerospace Engineering</h3>
     <div class="scroll-down">
       <span>Scroll down to learn more about me</span>
       <span class="down-arrow">&#8595;</span>
